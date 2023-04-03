@@ -1,0 +1,232 @@
+@media (max-width:575px) {
+/*============= common css start ==============*/
+h4 {
+	font-size: 23px;
+	line-height: 31px;
+}
+h2 {
+	font-size: 35px;
+	line-height: 45px;
+}
+.secondary-text {
+	font-size: 14px;
+	line-height: 23px;
+}
+.button {
+	padding: 8px 18px;
+	font-size: 14px;
+}
+:root{
+    --section-padding:50px;
+}
+/*============= common css end ==============*/
+/*============== navbar css start ============*/
+.px-5 {
+	padding-right: 0rem !important;
+	padding-left: 0rem !important;
+}
+nav{
+	text-align: center;
+}
+.navbar .navbar-nav {
+	margin-right: 0px;
+}
+.navbar .nav-link {
+	font-size: 14px;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler i{
+        color: #fff;
+}
+.navbar .navbar-brand p {
+	font-size: 14px;
+	margin-left: 0px;
+}
+/*============== navbar css end ============*/
+/*============== banner css start ============*/
+#banner {
+	padding: 50px 0;
+}
+#banner .banner-text h1 {
+	font-size: 58px;
+	margin-bottom: 10px;
+}
+#banner .banner-img img {
+	right: -160px;
+    top: -40;
+}
+/*============== banner css end ============*/
+/*============== gain css start ============*/
+#gain .gain-text p {
+	padding-right: 0px;
+}
+/*============== gain css end ============*/
+/*============== program css start ============*/
+#program .program-title h2 {
+	padding-right: 0px;
+}
+#program .program-title h2::after {
+	bottom: -20px;
+	right: 8px;
+	width: 285px;
+}
+#program .program-item .program-text .primary-text {
+	font-size: 16px;
+	padding-right: 0px;
+	margin-top: 0px;
+}
+#program .program-item .program-text .secondary-text {
+	margin: 10px 0;
+	padding-right: 0px;
+}
+#program .program-item .program-text .primary-text {
+	margin-top: 10px;
+}
+.program-item .program-text .list ul li {
+	font-size: 14px;
+	line-height: 25px;
+}
+.program-item .program-text .rear-text {
+	font-size: 12px;
+}
+#program {
+	padding-bottom: 40px;
+}
+/*============== program css start ============*/
+/*============== slider css start ============*/
+#slider .slider-title h2 {
+	margin-bottom: 60px;
+}
+#slider .slider-title h2::after {
+	bottom: -20px;
+	right: 6px;
+	width: 285px;
+}
+#slider .slider-text{
+    margin-top: 20px;
+}
+#slider .slider-text h4 {
+	margin: 15px 0;
+	padding-right: 0px;
+}
+#slider .slider-text p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: 0px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 0px;
+}
+#slider .slider-text .pstyle {
+	font-size: 14px;
+	line-height: 24px;
+	color: #4D5F93;
+}
+#slider .prev {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+    right: 55px;
+}
+#slider .next {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+}
+/*============== slider css end ============*/
+/*============== books-slider css end ============*/
+.books-slider {
+	top: -115px;
+}
+#books-slider {
+	margin-bottom: 90px;
+}
+#books .books-title h2::after {
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+	width: 280px;
+}
+.slick-initialized .slick-slide {
+	margin: 0 5px;
+}
+#books-slider .prev {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	bottom: -80px;
+	right: 75px;
+}
+#books-slider .next {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+    bottom: -80px;
+}
+#books-slider .slick-dots .slick-active button {
+	width: 13px;
+	height: 13px;
+}
+#books-slider .slick-dots li button {
+	width: 6px;
+	height: 6px;
+	margin-right: 8px;
+}
+#books-slider .slick-dots {
+	bottom: -85px;
+}
+/*============== books-slider css end ============*/
+/*============== books-slider css end ============*/
+#subscribe .subscribe {
+	padding: 10px 30px 20px 30px;
+	border-radius: 20px;
+}
+#subscribe .subscribe h3 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+#subscribe .subscribe form input {
+	padding: 10px;
+	font-size: 12px;
+    border-radius: 7px;
+}
+#subscribe .subscribe form #email {
+	padding: 10px;
+	margin-bottom: 15px;
+}
+/*============== books-slider css end ============*/
+/*============== footer css start ============*/
+footer .footer-hadding h2 {
+	margin-top: 15px;
+}
+footer .footer-text p {
+	margin-top: 0px;
+}
+.footer-btn {
+	text-align: left;
+	margin-top: 0px;
+}
+footer::after {
+	bottom: 174px;
+	left: 17px;
+	width: 280px;
+}
+.footer-copyright .text p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+.footer-copyright .icone{
+	font-size: 20px;
+	margin-right: 0px;
+	text-align: center;
+}
+.footer-copyright .number p {
+	font-size: 14px;
+	text-align: center;
+}
+/*============== footer css end ============*/
+
+}
